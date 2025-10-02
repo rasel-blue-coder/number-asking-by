@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    // here is i takeing only variables name only
+    //here is taking only variables name only
     int a, b, sum;
 
-    // Here I asking Valu from user
+    // Here I asking Value from user
     printf("Enter First Number: "); 
     scanf("%d", &a);
     
