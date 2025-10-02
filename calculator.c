@@ -13,8 +13,6 @@ int main()
     printf("Enter operator (+, -, *, /): ");
     scanf(" %c", &operator);
 
-    // The space before %c is to consume any leftover newline character
-
     // ইউজার এর থেকে দ্বিতীয় সংখ্যা চাওয়া হবে।
     printf("Enter second number: ");
     scanf("%f", &num2);
@@ -48,7 +46,7 @@ int main()
         break;
     default:
     // default বলবে যদি কোনো নির্দিষ্ট অপারেটর (যেমন +, -, *, /) যদি পাওয়া না যায়, তাহলে "Invalid operator!" মেসেজটি প্রিন্ট করবে।
-    
+
         printf("Invalid operator!\n");
     }
 
